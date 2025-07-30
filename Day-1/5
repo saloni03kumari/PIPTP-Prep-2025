@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+       int k= fun(9,4);
+        System.out.println(k);
+
+    }
+    public static int fun(int a,int b){
+        for(int c=2;c<=4;c++){
+            if(a%2< b%3){
+                a=4%3;
+
+            }else{
+                if(5%3>b){
+                    a=b;
+                }else{
+                    b=1;
+                }
+            }
+        }
+        return a+b;
+    }
+}
